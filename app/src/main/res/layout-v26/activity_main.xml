@@ -37,33 +37,39 @@
 
         <Button
                 android:id="@+id/btmult"
+                android:background="@color/colorPrimary"
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
+
                 android:text="x"/>
 
         <Button
                 android:id="@+id/btsoma"
+                android:background="@color/colorPrimary"
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
                 android:text="+"/>
 
         <Button
+                android:id="@+id/btsub"
+                android:background="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="-"/>
+        <Button
                 android:id="@+id/btdiv"
+                android:background="@color/colorPrimary"
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
                 android:text="%"/>
 
         <Button
                 android:id="@+id/btcle"
+                android:background="@color/colorAccent"
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
                 android:text="CE"/>
 
-        <Button
-                android:id="@+id/btsub"
-                android:layout_width="wrap_content"
-                android:layout_height="60dp"
-                android:text="-"/>
     </LinearLayout>
 
     <LinearLayout
@@ -173,6 +179,7 @@
 
         <Button
                 android:id="@+id/btigual"
+                android:background="@color/colorAccent"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="=" />
